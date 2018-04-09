@@ -36,6 +36,11 @@ public class Supermercado {
         for ( Pedido item: pedidos) {
             System.out.println("Código do pedido: " + item.getCodigo());
             System.out.println("Valor total do pedido: " + item.getValorTotal());
+            System.out.println("----------------------------");
+            System.out.println("Itens do pedido");           
+            item.listarItens();
+             System.out.println("----------------------------");
+            
         }
     }
 }

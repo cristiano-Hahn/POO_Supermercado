@@ -44,4 +44,12 @@ public class Pedido {
     public void setCodigo(int codigo){
         this.codigo = codigo;
     }
+    
+    public void listarItens(){
+         for ( Produto item: itens) {
+            System.out.println("Nome do produto: " + item.getNome());
+            System.out.println("Quantidade do produto: " + item.getQuantidade());
+            System.out.println("Valor do produto: " + item.getValor());
+        }
+    }
 }

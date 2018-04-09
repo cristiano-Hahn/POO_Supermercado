@@ -20,5 +20,17 @@ public class Produto {
     public float getTotal(){
         return valor * quantidade;
     }
+    
+    public String getNome(){
+        return nome;
+    }
+     
+    public int getQuantidade(){
+        return quantidade;
+    }
+    
+     public float getValor(){
+        return valor;
+    }
 
 }
